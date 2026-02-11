@@ -1,0 +1,124 @@
+# ===============================
+# DATA FILES (IMPORTANT FOR YOU)
+# ===============================
+output.csv
+*.csv
+*.tsv
+*.parquet
+
+# ===============================
+# MODEL & ML ARTIFACTS
+# ===============================
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# ===============================
+# STREAMLIT
+# ===============================
+.streamlit/secrets.toml
+
+# ===============================
+# Byte-compiled / optimized
+# ===============================
+__pycache__/
+*.py[codz]
+*$py.class
+
+# C extensions
+*.so
+
+# ===============================
+# Distribution / packaging
+# ===============================
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ===============================
+# PyInstaller
+# ===============================
+*.manifest
+*.spec
+
+# ===============================
+# Installer logs
+# ===============================
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===============================
+# Unit test / coverage
+# ===============================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+coverage.xml
+*.cover
+*.py.cover
+.pytest_cache/
+
+# ===============================
+# Jupyter
+# ===============================
+.ipynb_checkpoints/
+
+# ===============================
+# IPython
+# ===============================
+profile_default/
+ipython_config.py
+
+# ===============================
+# Virtual Environments (CRITICAL)
+# ===============================
+.env
+.envrc
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ===============================
+# Logs
+# ===============================
+*.log
+
+# ===============================
+# IDEs
+# ===============================
+.spyderproject
+.spyproject
+.ropeproject
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.cursorignore
+.cursorindexingignore
+
+# ===============================
+# OS
+# ===============================
+.DS_Store
+Thumbs.db
